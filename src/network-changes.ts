@@ -104,3 +104,5 @@ export class NetworkChanges {
     }
   }
 }
+
+export default NetworkChanges
