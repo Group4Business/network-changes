@@ -17,7 +17,7 @@ Detect network changes
         console.log(`Network has changed!`, interfaces);
     });
 
-    netChanges.set
+    netChanges.setTimer(5000); // Check every 5 seconds. Default 4 seconds
 
     subscription.unsubscribe();
 
